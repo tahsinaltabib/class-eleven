@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* ==============================
+Common css start
+================================= */
+.container{
+  width: 1270px;
+  margin: 0 auto;
+}
+.box{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+/* ==============================
+Common css end
+================================= */
+
+/* ==============================
+navbar css start
+================================= */
+nav{
+  background: #FAE386;
+  padding: 50px 0;
+}
+nav .box{
+  align-items: center;
+}
+nav .logo-part{
+  width: 20%;
+}
+.logo-part img{
+  width: 150px;
+}
+nav .menu-part{
+  width: 60%;
+}
+nav .menu-part ul{
+  display: flex;
+  column-gap: 60px;
+  list-style: none;
+  justify-content: center;
+}
+nav .menu-part ul li a{
+  color: #000000;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+nav .button-part{
+  width: 20%;
+  text-align: right;
+}
+nav .button-part a{
+  background: #FDB857;
+  padding: 10px 15px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: .4s;
+  border: 1px solid transparent;
+}
+nav .button-part a:hover{
+  background: #FAE386;
+  border-color: #897f7f;
+}
+/* ==============================
+navbar css end
+================================= */
